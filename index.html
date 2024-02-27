@@ -19,7 +19,7 @@
     <main>
         <section>
             <div class="container my-5 ">
-                <div class="p-5 text-center bg-body-tertiary rounded-3 contenedorPrincipal  ">
+                <div class="p-5 text-center bg-transparent rounded-3 contenedorPrincipal  ">
                     <img src="img/Logotipo.png" alt="Logotipo" class="img-fluid">
                     <h1 class="text-body-emphasis">Noticias Deportivas Actualizadas</h1>
                     <p class="col-lg-8 mx-auto fs-5 text-muted">
@@ -65,7 +65,7 @@
         </div>
         <section>
             <div class="container py-4">
-                <header class="pb-3 mb-4 border-bottom">
+                <header class="pb-3 mb-4 border-bottom mb-4 mt-5">
                     <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
                         <img src="img/RGB_Logotipo_LALIGA_coral.png" alt="Logotipo" class="logo">
                         <title>Bootstrap</title>
@@ -77,9 +77,9 @@
                     </a>
                 </header>
 
-                <div class="p-2 mb-4 bg-body-tertiary rounded-3 ">
+                <div class="p-2 mb-4 bg-body-tertiary rounded-3  contenedorEstadisticas">
                     <div class="container-fluid py-5">
-                        <h1 class="display-5 fw-bold mb-3">Estadisticas</h1>
+                        <h1 class="display-5 fw-bold mb-3">Clasificacion</h1>
                         
                         <table class="table table-striped mx-auto container-fluid ">
                             <thead>
@@ -221,17 +221,17 @@
                     </div>
                 </div>
 
-                <div class="row align-items-md-stretch">
+                <div class="row align-items-md-stretch ">
                     <div class="col-md-6">
-                        <div class="h-100 p-5 text-bg-dark rounded-3 ">
+                        <div class="h-100 p-5 text-bg-dark rounded-3  contenedorEstadisticas mt-2  ">
                             <h2 class="text-center mb-4">GOLEADOR DE LA LIGA</h2>
                             <div class="card container cardEstadistica" style="width: 19rem;">
-                                <img src="img/equipos/bellingham.png" class="card-img-top " alt="Jugador">
+                                <img src="img/equipos/bellingham.png" class="card-img-top container" alt="Jugador">
                                 <div class="card-body">
                                     <h5 class="card-title cardTitulo ">Jude Bellingham </h5>
 
                                 </div>
-                                <ul class="list-group list-group-flush">
+                                <ul class="list-group list-group-flush ">
                                     <li class="list-group-item estadisticas">Real Madrid 16 GOLES </li>
                                     <li class="list-group-item estadisticas">Centro Campista</li>
 
@@ -242,11 +242,11 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                        <div class="h-100 p-5 bg-body-tertiary border rounded-3 mt-2">
 
                             <h2 class="text-center mb-4">ASISTIDOR DE LA LIGA</h2>
                             <div class="card container cardEstadistica" style="width: 19rem;">
-                                <img src="img/equipos/ALEX B.png" class="card-img-top " alt="Jugador">
+                                <img src="img/equipos/ALEX B.png" class="card-img-top container " alt="Jugador">
                                 <div class="card-body">
                                     <h5 class="card-title cardTitulo ">Alex Baena</h5>
 
@@ -267,7 +267,7 @@
         </section>
 
         <section>
-            <div class="container py-4">
+            <div class="container py-4 mt-5">
 
 
                 <div class="p-5 mb-4 bg-body-tertiary rounded-3 contenedorPartidos">
@@ -278,14 +278,14 @@
                             <div class="row align-items-center jornadaContainer ">
                                 
                                 <div class="col mt-5   ">
-                                    <p> RC Celta</p>
+                                    <img src="img/equipos/celta-de-vigo_109482.png" alt="" width="80px"> Celta de Vigo
                                     </div>
                                 <div class="col mt-5 ">
                                     Movistar LALIGA TV VIE 01.03.2024 21:00
                                     </div>
                                 
                                 <div class="col mt-5  ">
-                                    <p> UD Almeria</p>
+                                    <img src="img/equipos/png-transparent-ud-almería-logo-football-spanish-football-clubs-logos-thumbnail.png" alt="" width="60px"> UD Almeria
                                     </div>
                                 </div>
                                 
@@ -332,8 +332,11 @@
                 
                 </div>
 
-                <footer class="pt-3 mt-4 text-body-secondary border-top">
-                    &copy; 2024
+                <footer class="pt-3 mt-4 text-body-secondary border-top container"> 
+                    
+                    <p class="textFooter">
+                        Replay Venezuela &copy; 2024
+                    </p>
                 </footer>
             </div>
         </section>
