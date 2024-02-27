@@ -39,7 +39,8 @@ a{
 }
 
 td {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+    
 }
 .equipos{
     width: 40px;
@@ -50,10 +51,8 @@ td {
 .equiposJornadaAlmeria {
     width: 50px;
 }
-.puntos{
-font-size: 1.4rem;
 
-}
+
 
 .equiposAlmeria{
     width: 25px;
