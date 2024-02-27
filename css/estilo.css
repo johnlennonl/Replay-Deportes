@@ -110,3 +110,7 @@ a:hover{
     font-weight: 500;
     color: black;
 }
+
+.jornadaContainer {
+    font-size: 1.1rem;
+}
