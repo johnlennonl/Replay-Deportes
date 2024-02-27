@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(112.5deg, rgb(134,134,134) 0%, rgb(134,134,134) 10%,rgb(163,160,160) 10%, rgb(163,160,160) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(84,84,84) 91%, rgb(84,84,84) 100%),linear-gradient(157.5deg, rgb(134,134,134) 0%, rgb(134,134,134) 10%,rgb(163,160,160) 10%, rgb(163,160,160) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(84,84,84) 91%, rgb(84,84,84) 100%),linear-gradient(135deg, rgb(134,134,134) 0%, rgb(134,134,134) 10%,rgb(163,160,160) 10%, rgb(163,160,160) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(84,84,84) 91%, rgb(84,84,84) 100%),linear-gradient(90deg, rgb(163,160,160),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.logotipoNav{
+    width: 150px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+}
+
+em:hover {
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+.subNav{
+    background-color: #403542 ;
+}
+.logotipos{
+    width: 100px;
+
+}
+
+.contenedorPrincipal{
+    filter: drop-shadow( 0 0 0 10px rgba(0,0,0, .8));
+}
+
+.logo{
+    width: 200px;
+}
+
+td {
+    font-size: 1.4rem;
+}
+.equipos{
+    width: 40px;
+}
+.equiposJornada {
+    width: 60px;
+}
+.equiposJornadaAlmeria {
+    width: 50px;
+}
+.puntos{
+font-size: 1.4rem;
+
+}
+
+.equiposAlmeria{
+    width: 25px;
+}
+
+.cardTitulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estadisticas{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardEstadistica{
+    border: none;
+    border-radius: 16PX;
+}
+
+.contenedorPartidos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
